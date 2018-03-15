@@ -6,8 +6,15 @@
 |__/     | |   | |___ |____||____|
       .__/
 ```
+
+shell just supports parsing and execution of commands and invoke coressponding executable.   
+It does not have any programmable features (variables etc.).  
+The main shell features supported are redirection and piping.  
+apart form this two additional types of piping - to pipe single process to multiple(2/3) processes - are supported
+shell prints the process id and status of the exited processes.
+
 NETWORK PROGRAMMING ASSIGNMENT
-By: Divesh Uttamchandani
+Author: Divesh Uttamchandani
 
 # main concepts used
 Systems programming
@@ -21,7 +28,9 @@ Systems programming
 # assumptions
 input is valid and well spaced, according to the one given in the question  
 examples of valid and tested inputs  
-arbitrary inputs may raise errors  
+arbitrary inputs may raise errors like mixing piping and io redirections arbitraily
+
+in interpreting commands pipes have least pre
 - `ls`
 - `ls -l`
 - `ls | wc | wc | wc`
