@@ -74,3 +74,12 @@ exectuion of the recipient commands they are running in concurrently
 # my feature implemented
 if a command ends with `&` then i won't wait for the commands to finish. i.e 
 they run in the background
+
+
+# issues and improvements
+hh.. many, this is just a fun assignment.  
+Main ones that I wanted to do but couldn't due to time constraints include:  
+- parsing should be a seperate module
+- a seperate parser should be implemented. The complete shell language should be specified including precedence -- probably doing this in [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) will help as Then we may use some existing parser generator for the purpose.
+- use readline for parsing commands
+- support colors
