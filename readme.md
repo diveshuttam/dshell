@@ -7,16 +7,16 @@
       .__/
 ```
 
-shell just supports parsing and execution of commands and invokes coressponding executable.   
+This shell just supports parsing and execution of commands and invokes coressponding executable.   
 It does not have any programmable features (variables etc.).  
 The main shell features supported are redirection and piping.  
-apart form this two additional types of piping - to pipe single process to multiple(2/3) processes - are supported
+Apart form this two additional types of piping - to pipe single process to multiple(2/3) processes - are supported
 shell prints the process id and status of the exited processes.
 
-NETWORK PROGRAMMING ASSIGNMENT
-Author: Divesh Uttamchandani
+## NETWORK PROGRAMMING ASSIGNMENT  
+### Author: Divesh Uttamchandani
 
-# main concepts used
+### main concepts used
 Systems programming
   - parent child process (forking etc.)
   - inter process communication 
@@ -26,11 +26,10 @@ Systems programming
     - file descriptors (for i/o redirection as well as pipes)
   
 # assumptions
-input is valid and well spaced, according to the one given in the question  
-examples of valid and tested inputs  
-arbitrary inputs may raise errors like mixing piping and io redirections arbitraily
+Input is valid and well spaced, according to the one given in the question    
+Arbitrary inputs may raise errors like mixing piping and io redirections arbitraily  
 
-in interpreting commands pipes have least precedence.
+In interpreting commands pipes have least precedence.
 
 - `ls`
 - `ls -l`
